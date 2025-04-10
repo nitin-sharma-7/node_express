@@ -91,6 +91,14 @@ Example Request Body for POST and PUT
 "lastName": "Doe",
 "hobby": "Gaming"
 }
+## Screenshots
+
+![Screenshot (192)](https://github.com/user-attachments/assets/7e80faa3-cd09-4e05-844e-be3f99c7560d)
+![Screenshot (193)](https://github.com/user-attachments/assets/c6435923-476f-4f08-8fa6-c5689d41e8a4)
+![Screenshot (194)](https://github.com/user-attachments/assets/f5c68914-72f0-4f34-9fa3-1d76d28729cc)
+![Screenshot (195)](https://github.com/user-attachments/assets/6f4f886a-d757-4564-b874-bc17570d1b55)
+![Screenshot (196)](https://github.com/user-attachments/assets/c11c87f6-b23b-4df9-b074-aacb5bfb9282)
+![Screenshot (197)](https://github.com/user-attachments/assets/c9183219-0ae1-474a-8ec9-59bfdda9f74b)
 
 ## License
 
