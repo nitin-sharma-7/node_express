@@ -42,7 +42,7 @@ MVC architecture
 
 ## Installation
 
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/nitin-sharma-7/node_express.git
 cd your-repo
 npm install
 
@@ -91,6 +91,7 @@ Example Request Body for POST and PUT
 "lastName": "Doe",
 "hobby": "Gaming"
 }
+
 ## Screenshots
 
 ![Screenshot (192)](https://github.com/user-attachments/assets/7e80faa3-cd09-4e05-844e-be3f99c7560d)
