@@ -9,7 +9,6 @@ import {
 import { validateUser } from "../middleware/validateUser.js";
 
 const router = express.Router();
-
 router.get("/users", getAllUsers);
 router.get("/users/:id", getUserById);
 router.post("/user", validateUser, createUser);
