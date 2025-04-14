@@ -1,3 +1,4 @@
+// Middleware to validate user input data before proceeding to route handlers
 export const validateUser = (req, res, next) => {
   const { firstName, lastName, hobby } = req.body;
   const errors = [];

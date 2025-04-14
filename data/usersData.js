@@ -7,7 +7,7 @@ export const usersData = [
   },
   {
     id: "2",
-    firstName: "jack",
+    firstName: "lakhan",
     lastName: "maa",
     hobby: "business",
   },

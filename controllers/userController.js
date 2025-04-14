@@ -1,9 +1,11 @@
 import { usersData } from "../data/usersData.js";
 
+// Get all users from the database
 export const getAllUsers = (req, res) => {
   res.status(200).json(usersData);
 };
 
+// Get a specific user by ID
 export const getUserById = (req, res, next) => {
   const uid = req.params.id;
   const user = usersData.find((val) => val.id == uid);
@@ -15,6 +17,7 @@ export const getUserById = (req, res, next) => {
   res.status(200).json(user);
 };
 
+// Create a new user
 export const createUser = (req, res) => {
   const { firstName, lastName, hobby } = req.body;
   const user = {
@@ -27,6 +30,7 @@ export const createUser = (req, res) => {
   res.status(201).json(user);
 };
 
+// Update an existing user
 export const updateUser = (req, res, next) => {
   const { firstName, lastName, hobby } = req.body;
   const uid = req.params.id;
@@ -39,6 +43,7 @@ export const updateUser = (req, res, next) => {
   }
 
   const updatedUser = {
+    //id provided by length of userData length
     id: usersData[userIndex].id,
     firstName,
     lastName,
@@ -48,6 +53,7 @@ export const updateUser = (req, res, next) => {
   res.json(updatedUser);
 };
 
+// Delete a user
 export const deleteUser = (req, res, next) => {
   const userIndex = usersData.findIndex((val) => val.id == req.params.id);
   if (userIndex === -1) {
