@@ -26,19 +26,7 @@ Express.js
 
 MVC architecture
 
-## Folder Structure
 
-.
-├── controllers/
-│ └── userController.js
-├── data/
-│ └── usersData.js
-├── middleware/
-│ ├── errorHandler.js
-│ └── validateUser.js
-├── routes/
-│ └── userRoutes.js
-├── index.js
 
 ## Installation
 
